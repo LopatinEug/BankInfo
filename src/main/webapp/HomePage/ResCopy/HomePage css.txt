@@ -1,0 +1,148 @@
+/*CSS Home Page*/
+html { 
+	overflow-x:  hidden; 
+	overflow-y:  hidden;
+}
+
+.wrapper {
+	margin-top: -28px;
+}
+
+.background-image {
+    background-image: url(wallst.jpg);
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(2px);
+}
+
+.inner-wrapper,
+.background-image {
+    position: absolute;
+}
+
+.dark-layer {
+	/* background-color: #494949; */
+	background-color: black;
+	width: 1370px;
+	height: 770px;
+	opacity: 0.3;
+}
+
+.inner-wrapper {
+    color: red;
+    text-align: center;
+}
+
+
+.navbar-brand img {
+	width: 240px;
+	height: 115px;
+	margin-left: 40px;
+}
+
+.container-menu {
+	float: right;
+	margin-right: 100px;
+	margin-top: 53px;
+}
+
+.menu {
+	display: inline-block;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: lighter;
+	font-size: 30px;
+	margin-right: 20px;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #29c0ff;
+}
+
+.inner-wrapper {
+	width: 100%;
+	position: absolute;
+}
+
+.main-image {
+	margin: auto;
+}
+
+.main-image img{
+	width: 350px;
+	height: 150px;
+}
+
+.block-info {
+	margin: auto;
+}
+
+.tagline {
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+}
+
+.tagline:hover {
+	cursor: default;
+}
+
+.description {
+	padding-left: 300px;
+	padding-right: 300px;
+	color: white;
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: lighter;
+}
+
+.description {
+	cursor: default;
+}
+
+.btn {
+	border-radius: 0px;
+	width: 170px;
+	height: 60px;
+}
+
+.btn a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+
+/*Pryachem vse i delaem App*/
+.wrapper-hide {
+	visibility: hidden;
+}
+
+.proba-hidden {
+	visibility: hidden;
+}
+
+
+/*CSS Main Page*/
+
+
+
+/* Алаптация с экраном в ширину 820px */
+@media screen and (max-width: 820px) {
+
+
+.background-image {
+    background-image: url(wallst.jpg);
+    width: 1370px;
+    height: 770px;
+    -webkit-filter: blur(2px);
+	}
+
+}

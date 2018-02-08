@@ -1,0 +1,140 @@
+/* ::-webkit-scrollbar { width: 5px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: pink; }
+::-webkit-scrollbar-track {  background-color: #999;}
+::-webkit-scrollbar-track-piece { background-color: #ffffff;}
+::-webkit-scrollbar-thumb { height: 30px; background-color: #13dbfb; border-radius: 4px;}
+::-webkit-scrollbar-corner { background-color: pink;}}
+::-webkit-resizer { background-color: pink;} */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700&subset=cyrillic-ext');
+
+.wrapper {
+	width: 100%;
+}
+
+.background-image {
+    background-image: url(/ProjectBank/HomePage/wallst.jpg);
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(2px);
+    background-attachment: fixed;
+}
+
+.inner-wrapper,
+.background-image {
+    position: absolute;
+}
+
+.dark-layer {
+	/* background-color: #494949; */
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	opacity: 0.3;
+}
+
+.block1 {
+	width: 750px;
+	height: 340px;
+	margin: auto;
+	border-radius: 5px;
+	background-color: #ffffff;
+	position: relative;
+}
+
+.inputs {
+	text-align: center;
+}
+
+.inputs div {
+	/* text-align: center; */
+	display: inline-block;
+}
+
+input {
+	height: 27px;
+}
+
+select {
+	height: 27px;
+}
+
+hr {
+	border: 1px solid #e5e5e5;
+}
+
+
+.group_with2_elem div {
+	display: inline-block;
+}
+
+.myButton {
+	float: left;
+	margin-left: 180px;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #29c0ff;
+}
+
+.btn {
+	border-radius: 4px;
+	width: 80px;
+	height: 33px;
+}
+
+.btn a {
+	color: white;
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.additional-conditions {
+	float: right;
+	margin-right: 180px; 
+}
+
+.additional-conditions:hover {
+	cursor: pointer;
+}
+
+.block3 {
+	text-align: center;
+
+}
+
+.block3 div {
+	display: inline-block;
+}
+
+p {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: lighter;
+	color: #447fc8;
+	font-size: 17px;
+}
+
+.block3-hidden {
+	visibility: hidden;
+}
+
+.block1-rehight {
+	height: 190px;
+}
+
+.block-info {
+	width: 750px;
+	height: auto;
+	margin: auto;
+	border-radius: 5px;
+	background-color: pink;
+	position: relative;
+}
+
